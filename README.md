@@ -1,5 +1,5 @@
 # Star Wars Themed Website
-*(University Web Design Course Submission)*
+*(University Basic Web Developing Course Submission)*
 
 This project was developed approximately a year ago as part of the requirements for my **Business Informatics** studies, specifically for the Web Design and Development practical course.
 
