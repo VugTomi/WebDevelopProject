@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Star Wars Mémek</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../css/style.css"/>
+        <meta name="author" content="Vugernicsek Tamás">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="otodikoldal">
+        <nav id="logo"> 
+            <a href="../index.html">
+                <img id="sw" src="../img/SWlogo.png" alt="SW"/>
+            </a>   
+        </nav>
+        <div id="udvozloablakot">
+            <h1>MÉMEK!</h1>
+            <p>Üdvözöljük a Star Wars Rajongói Mémek oldalán! Nevessen egyet a mémeken, vagy akár tegyen fel az oldalra ön is mémet teljesen névtelenül!</p>
+        </div>
+
+        <div id="memekablaka">
+            <h2>Mém hozzáadása</h2>
+            <form>
+                <label for="nev">Add meg a felhasználóneved!</label>
+                <input id="nev" placeholder="Mi legyen a neved?" type="text" name="title" required> <br/>
+
+                <label for="megjegyzes">Mém</label> <br/>
+                <textarea id="megjegyzes" name="megjegyzés" rows="5" cols="50" maxlength="200" placeholder="Írj hozzáfűzni valót!"></textarea> 
+
+                <label for="fajl">Fájl feltöltés:</label>
+                <input id="fajl" type="file" name="fajl"> <br/> <br/>
+
+                <button id="button" type="submit">Mém Beküldése</button>
+            </form>
+        </div>
+
+        <div class="memek">
+            <p class="felhasznalonev">Vastag Jabba</p>
+            <p class="hozzaszolas">Hányat küldhetek még?</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém1.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+        <div class="memek">
+            <p class="felhasznalonev">Darth Leves</p>
+            <p class="hozzaszolas">Ezek az apás viccek...</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém2.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+        <div class="memek">
+            <p class="felhasznalonev">Han Solo Söre</p>
+            <p class="hozzaszolas">Sajnos az is kevés volt...</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém3.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+        <div class="memek">
+            <p class="felhasznalonev">Zöldgenyó Mester</p>
+            <p class="hozzaszolas">Csak ne maradjak fent</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém4.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+
+        <div class="memek">
+            <p class="felhasznalonev">Vader Apó</p>
+            <p class="hozzaszolas">Hol lehet ilyet kapni?</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém5.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+        <div class="memek">
+            <p class="felhasznalonev">Porgs Péter</p>
+            <p class="hozzaszolas">Egy kis szó viccből sosem elég</p>
+            <img class="memkepek" src="../img/MémekKépek/Mém6.jpg" alt="mem"/>
+            <button class="like-button">👍🏽 Like</button>
+        </div>
+
+    </body>
+</html>

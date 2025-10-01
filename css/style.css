@@ -1,0 +1,1357 @@
+@charset "UTF-8";
+#fooldal {
+  background: url("../img/luke-skywalker-vs-darth-vader-wallpapers.jpg") center/cover no-repeat;
+  background-position: center 0px;
+  background-attachment: fixed;
+  color: yellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+
+#focim {
+  text-align: center;
+}
+
+#sw {
+  width: 125px;
+  padding-right: 10px;
+}
+
+#logo {
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.6823529412);
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: right;
+  z-index: 1000;
+}
+
+#menu {
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.906);
+  margin: 15px auto;
+  padding: 0px 30px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+@keyframes balrol-bejoves {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes jobbrol-bejoves {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rainbow-animation {
+  0% {
+    border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo);
+  }
+  50% {
+    border-image-source: linear-gradient(135deg, indigo, blue, green, yellow, orange, red);
+  }
+  100% {
+    border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo);
+  }
+}
+.masodikablak {
+  background-color: rgba(0, 0, 0, 0.911);
+  max-width: 1500px;
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  animation: jobbrol-bejoves 2s ease-in-out;
+}
+
+.masodikablak h2 {
+  text-align: center;
+}
+
+.masodikablak .linkekoldalakhoz {
+  padding: 0px 20px;
+}
+
+.masodikablak p {
+  text-align: left;
+}
+
+.masodikablak .masodikablakbelsoablak {
+  background-color: rgba(0, 0, 0, 0.635);
+  max-width: 1400px;
+  margin: 30px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+}
+
+.masodikablak .bolygok {
+  width: 220px;
+  float: right;
+  padding-left: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.masodikablak .bolygok:hover {
+  transform: scale(1.1);
+}
+
+.masodikablakbelsoablak .gyujtemenyek {
+  width: 280px;
+  float: right;
+  padding-left: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.masodikablakbelsoablak .gyujtemenyek:hover {
+  transform: scale(1.1);
+}
+
+.masodikablak .esemenyek {
+  width: 280px;
+  float: right;
+  padding-left: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.masodikablak .esemenyek:hover {
+  transform: scale(1.1);
+}
+
+.masodikablak .memekfo {
+  width: 240px;
+  float: right;
+  padding-left: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.masodikablak .memekfo:hover {
+  transform: scale(1.1);
+}
+
+.masodikablak .kviz {
+  width: 250px;
+  float: right;
+  padding-left: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.masodikablak .kviz:hover {
+  transform: scale(1.1);
+}
+
+.link {
+  text-decoration: underline;
+  color: yellow;
+  font-size: 1.4rem;
+}
+
+.link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+  #menu {
+    padding: 0px 20px;
+    font-size: 1rem;
+    width: 70%;
+  }
+  .masodikablak {
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  .masodikablak .bolygok,
+  .masodikablakbelsoablak .gyujtemenyek,
+  .masodikablak .esemenyek,
+  .masodikablak .memekfo,
+  .masodikablak .kviz {
+    width: 25%;
+  }
+  .masodikablak .masodikablakbelsoablak {
+    width: 90%;
+  }
+  .masodikablakbelsoablak p, .linkekoldalakhoz {
+    width: 70%;
+    padding: 0px;
+  }
+  .posztkep {
+    width: 90%;
+  }
+  #title {
+    width: 90%;
+  }
+  #date {
+    width: 90%;
+  }
+  #location {
+    width: 90%;
+  }
+  #megjegyzes {
+    width: 90%;
+  }
+  #esemenyekablaka {
+    width: 70%;
+  }
+  .esemenyposztok {
+    width: 70%;
+  }
+  #udvozloablak {
+    width: 90%;
+  }
+  #memekablaka, #megjegyzes, #nev, .memkepek {
+    width: 94%;
+  }
+  .memek {
+    width: 90%;
+  }
+  #udvozloablakot {
+    width: 90%;
+  }
+  #harmadikoldalkoszonto, #harmadikoldalkoszonto li {
+    width: 60%;
+    padding: 10px;
+    font-size: 90%;
+  }
+  #harmadikoldalkoszonto li {
+    width: 70%;
+  }
+  .harmadikoldalkategoriak {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #menu {
+    padding: 0px 20px;
+    font-size: 1rem;
+    width: 70%;
+  }
+  .masodikablak {
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  .masodikablak .bolygok,
+  .masodikablakbelsoablak .gyujtemenyek,
+  .masodikablak .esemenyek,
+  .masodikablak .memekfo,
+  .masodikablak .kviz {
+    width: 25%;
+  }
+  .masodikablak .masodikablakbelsoablak {
+    width: 80%;
+  }
+  .masodikablakbelsoablak p, .linkekoldalakhoz {
+    width: 60%;
+    padding: 0px;
+  }
+  #logo {
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .posztkep {
+    width: 90%;
+  }
+  #title {
+    width: 90%;
+  }
+  #date {
+    width: 90%;
+  }
+  #location {
+    width: 90%;
+  }
+  #megjegyzes {
+    width: 90%;
+  }
+  #esemenyekablaka {
+    width: 70%;
+  }
+  .esemenyposztok {
+    width: 70%;
+  }
+  #udvozloablak {
+    width: 87%;
+  }
+  #memekablaka, #megjegyzes, #nev, .memkepek {
+    width: 94%;
+  }
+  .memek {
+    width: 85%;
+  }
+  #udvozloablakot {
+    width: 85%;
+  }
+  #harmadikoldalkoszonto, #harmadikoldalkoszonto li {
+    width: 60%;
+    padding: 10px;
+    font-size: 90%;
+  }
+  #harmadikoldalkoszonto li {
+    width: 70%;
+  }
+  .harmadikoldalkategoriak {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #menu {
+    font-size: large;
+  }
+  .masodikablak {
+    width: 750px;
+  }
+  .masodikablak .bolygok,
+  .masodikablakbelsoablak .gyujtemenyek,
+  .masodikablak .esemenyek,
+  .masodikablak .memekfo,
+  .masodikablak .kviz {
+    width: 150px;
+  }
+  .masodikablakbelsoablak {
+    width: 700px;
+  }
+  .posztkep {
+    width: 90%;
+  }
+  #title {
+    width: 90%;
+  }
+  #date {
+    width: 90%;
+  }
+  #location {
+    width: 90%;
+  }
+  #megjegyzes {
+    width: 90%;
+  }
+  #esemenyekablaka {
+    width: 80%;
+  }
+  .esemenyposztok {
+    width: 70%;
+  }
+  #udvozloablak {
+    width: 85%;
+  }
+  #memekablaka, #megjegyzes, #nev, .memkepek {
+    width: 94%;
+  }
+  .memek {
+    width: 80%;
+  }
+  #udvozloablakot {
+    width: 80%;
+  }
+  #harmadikoldalkoszonto, #harmadikoldalkoszonto li {
+    width: 60%;
+    padding: 10px;
+    font-size: 90%;
+  }
+  #harmadikoldalkoszonto li {
+    width: 70%;
+  }
+  .harmadikoldalkategoriak {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #menu {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .masodikablak {
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  .masodikablak .bolygok,
+  .masodikablakbelsoablak .gyujtemenyek,
+  .masodikablak .esemenyek,
+  .masodikablak .memekfo,
+  .masodikablak .kviz {
+    width: 25%;
+  }
+  .masodikablak .masodikablakbelsoablak {
+    width: 80%;
+  }
+  .masodikablakbelsoablak p, .linkekoldalakhoz {
+    width: 100%;
+    padding: 0px;
+  }
+  #logo {
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .posztkep {
+    width: 90%;
+  }
+  #title {
+    width: 90%;
+  }
+  #date {
+    width: 90%;
+  }
+  #location {
+    width: 90%;
+  }
+  #megjegyzes {
+    width: 90%;
+  }
+  #esemenyekablaka {
+    width: 70%;
+  }
+  .esemenyposztok {
+    width: 70%;
+  }
+  #udvozloablak {
+    width: 50%;
+    margin-left: 20px;
+  }
+  #memekablaka, #megjegyzes, #nev, .memkepek {
+    width: 80%;
+  }
+  .memek {
+    width: 70%;
+  }
+  #udvozloablakot {
+    width: 70%;
+  }
+  #harmadikoldalkoszonto, #harmadikoldalkoszonto li {
+    width: 60%;
+    padding: 10px;
+    font-size: 90%;
+  }
+  #harmadikoldalkoszonto li {
+    width: 70%;
+  }
+  .harmadikoldalkategoriak {
+    width: 70%;
+  }
+}
+/* Második oldal*/
+#masodikoldal {
+  background: url("../img/időkapu.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: black;
+  color: yellow;
+  background-attachment: fixed;
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+
+#sw_masodikoldalon {
+  width: 125px;
+  padding-right: 10px;
+}
+
+#masodikoldalmain {
+  width: 850px;
+  background-color: rgba(0, 0, 0, 0.908);
+  margin: 15px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 0px 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+#masodikoldalfocim {
+  text-align: center;
+}
+
+.masodikoldaltema {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.masodikoldaltema:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.felsorolas {
+  padding: 10px;
+}
+
+#bolygokablak {
+  background-color: rgba(0, 0, 0, 0.908);
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: jobbrol-bejoves 2s ease-in-out;
+}
+
+#bolygokablak h1 {
+  text-align: center;
+}
+
+.bolygonevek > ol,
+.bolygonevek > ul {
+  font-size: medium;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.bolygonevek {
+  font-size: x-large;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+hr {
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  margin-bottom: 25px;
+  animation: rainbow-animation 5s linear infinite;
+}
+
+.kepekbolygora {
+  width: 300px;
+  float: right;
+  padding-left: 50px;
+  margin: 5px 5px;
+  margin-bottom: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.kepekbolygora:hover {
+  transform: scale(1.1);
+}
+
+.leiras {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.alcimek {
+  font-size: larger;
+  padding: 10px;
+  list-style-type: none;
+  font-style: italic;
+}
+
+#szereplokablak {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.902);
+  width: 100%;
+  max-width: 1500px;
+  margin: 10px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: betoltes 2s ease-in;
+}
+
+@keyframes betoltes {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+#szereplokablak h1 {
+  text-align: center;
+}
+
+.szereplok {
+  width: 1000px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 20px;
+  background-color: rgb(0, 0, 0);
+}
+
+.szereplok h2 {
+  text-align: center;
+}
+
+.szereplok-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.szereplok li {
+  text-align: left;
+  line-height: 2;
+  padding: 5px;
+}
+
+.luke {
+  width: 200px;
+  float: right;
+  transition: transform 0.2s ease-in-out;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.luke:hover {
+  transform: scale(1.05);
+}
+
+.leia {
+  width: 160px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.leia:hover {
+  transform: scale(1.05);
+}
+
+.han {
+  width: 170px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.han:hover {
+  transform: scale(1.05);
+}
+
+.kenobi {
+  width: 200px;
+  float: right;
+  transition: transform 0.2s ease-in-out;
+}
+
+.kenobi:hover {
+  transform: scale(1.05);
+}
+
+.rey {
+  width: 300px;
+  float: right;
+  transition: transform 0.2s ease-in-out;
+}
+
+.rey:hover {
+  transform: scale(1.05);
+}
+
+.vader {
+  width: 220px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.vader:hover {
+  transform: scale(1.05);
+}
+
+.sidius {
+  width: 270px;
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sidius:hover {
+  transform: scale(1.05);
+}
+
+.ren {
+  width: 190px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ren:hover {
+  transform: scale(1.05);
+}
+
+.maul {
+  width: 220px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.maul:hover {
+  transform: scale(1.05);
+}
+
+.dooku {
+  width: 270px;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dooku:hover {
+  transform: scale(1.05);
+}
+
+#tortenetablak h2 {
+  text-align: center;
+}
+
+#tortenetablak .foalcim {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: x-large;
+  list-style-type: none;
+}
+
+#tortenetablak .tortenetalcim {
+  line-height: 2;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+#tortenetablak {
+  background-color: rgba(0, 0, 0, 0.935);
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: betoltes 5s ease-in-out;
+}
+
+#tortenetablak .timeline {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#tortenetablak .timeline:hover {
+  transform: scale(1.05);
+}
+
+.tortenetleiras {
+  margin-left: 20px;
+}
+
+/* Harmadik Oldal*/
+#harmadikoldal {
+  background: url("../img/store.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: black;
+  color: yellow;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0 auto;
+}
+
+#sw_harmadik {
+  width: 125px;
+  padding-right: 10px;
+}
+
+#harmadikoldalkoszonto {
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.907);
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  font-size: large;
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+#harmadikoldalkoszonto ul li {
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.harmadikoldalkategoriak {
+  background-color: rgba(0, 0, 0, 0.904);
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 10px;
+  animation: jobbrol-bejoves 2s ease-in;
+}
+
+.harmadikoldalkategoriak h3 {
+  padding-left: 30px;
+}
+
+#fenykardok {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#sisakok {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#legok {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#konyvek {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#kepregenyek {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.keretekkardok {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 430px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 10px 20px;
+}
+
+.sw_kardok {
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw_kardok:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.termekleiras {
+  text-align: center;
+  margin: 15px;
+}
+
+.sw_sisakok {
+  width: 200px;
+  margin: 50px auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw_sisakok:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.sw_lego {
+  width: 230px;
+  height: 230px;
+  margin: 30px auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw_lego:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.sw_konyv {
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw_konyv:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.keretekkonyvek {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 570px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 10px 20px;
+}
+
+.kereteksisasok {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 470px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 10px 20px;
+}
+
+.kereteklegok {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 455px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 10px 20px;
+}
+
+.keretekkepregeny {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 570px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin: 10px 20px;
+}
+
+.sw_kepregeny {
+  width: 220px;
+  margin: 30px auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw_kepregeny:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.shopgombdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 40px;
+}
+
+input[type=submit] {
+  background-color: rgb(1, 1, 1);
+  border-radius: 5px;
+  color: yellow;
+  border: 2px solid yellow;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cart-icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.icon-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 0);
+}
+
+.icon-image:hover {
+  border: 5px solid rgb(255, 0, 0);
+}
+
+/*Negyedik Oldal*/
+#negyedikkoldal {
+  background: url("../img/EseményKépek/Celebration.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: yellow;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0 auto;
+}
+
+#udvozloablak {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  background-color: rgba(0, 0, 0, 0.925);
+  margin: 100px auto 50px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 0px 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+}
+
+#udvozloablak p {
+  text-align: center;
+}
+
+#esemenyekablaka {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+}
+
+.esemenyposztok {
+  display: block;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: jobbrol-bejoves 2s ease-in-out;
+}
+
+.profilkep {
+  width: 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.felhasznalonev {
+  display: inline-block;
+  margin: 0;
+}
+
+.posztkep {
+  display: block;
+  width: 700px;
+  margin: 0px auto;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.posztkep:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#title {
+  height: 35px;
+  width: 750px;
+  padding: 0 20px;
+  border: 6px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin-bottom: 20px;
+}
+
+#date {
+  height: 35px;
+  padding: 0 20px;
+  width: 750px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin-bottom: 20px;
+}
+
+#location {
+  height: 35px;
+  width: 750px;
+  padding: 0 20px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin-bottom: 20px;
+}
+
+#megjegyzes {
+  width: 750px;
+  height: 35px;
+  padding: 0 20px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin-bottom: 20px;
+}
+
+#button {
+  background: yellow;
+  height: 50px;
+  line-height: 40px;
+  margin: 10px 0;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+}
+
+#button:hover {
+  cursor: pointer;
+}
+
+input::-moz-placeholder {
+  font-style: italic;
+  opacity: 0.9;
+  font-size: large;
+}
+
+input::placeholder {
+  font-style: italic;
+  opacity: 0.9;
+  font-size: large;
+}
+
+#megjegyzes::-moz-placeholder {
+  font-style: italic;
+  opacity: 0.9;
+  font-size: large;
+}
+
+#megjegyzes::placeholder {
+  font-style: italic;
+  opacity: 0.9;
+  font-size: large;
+}
+
+/*Ötödik Oldal*/
+#otodikoldal {
+  background: url("../img/MémekKépek/borítómém.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: yellow;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0 auto;
+}
+
+#udvozloablakot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  width: 750px;
+  background-color: rgba(0, 0, 0, 0.925);
+  margin: 100px auto 50px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 0px 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+#memekablaka {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.908);
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: balrol-bejoves 2s ease-in-out;
+}
+
+.memek {
+  display: block;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.913);
+  margin: 50px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: jobbrol-bejoves 2s ease-in-out;
+}
+
+.felhasznalonev {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+}
+
+#nev {
+  width: 94%;
+  height: 35px;
+  padding: 0 20px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  margin-bottom: 20px;
+}
+
+.memkepek {
+  display: block;
+  max-width: 800px;
+  margin: 20px auto;
+  transition: transform 0.2s ease-in-out;
+  padding: 20px;
+}
+
+.memkepek:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.like-button {
+  background-color: yellow;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Hatodik Oldal*/
+#hatodikoldal {
+  background: url("../img/KvízKépek/kvízborító.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: black;
+  color: yellow;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0 auto;
+}
+
+.kvizablak {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.919);
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo) 1;
+  animation: rainbow-animation 5s linear infinite;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  animation: jobbrol-bejoves 2s ease-in-out;
+}
+
+#kvizbutton {
+  background: yellow;
+  height: 40px;
+  width: 300px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  color: red;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
